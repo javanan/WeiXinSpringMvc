@@ -11,6 +11,7 @@ public class SessionListener implements HttpSessionListener
 	
 	public void sessionCreated(HttpSessionEvent event) 
 	{
+		System.out.println("=================+SessionListener");
 		log.info("SESSIONID: " + event.getSession().getId() + " ´´½¨");
 	}
 

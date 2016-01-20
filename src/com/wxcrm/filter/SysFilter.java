@@ -36,6 +36,10 @@ public class SysFilter extends OncePerRequestFilter {
 
 	public void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain)
 			throws ServletException, IOException {
+		
+		System.out.println("=================+SysFilter");
+		
+		
 		String reqUri = request.getRequestURI();
 		if (reqUri.startsWith("/WeiXinSpringMvc")) {
 			reqUri = reqUri.substring(reqUri.indexOf("/", 1), reqUri.length());

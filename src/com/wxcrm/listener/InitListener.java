@@ -17,6 +17,8 @@ public class InitListener implements ServletContextListener
 	
 	public void contextInitialized(ServletContextEvent event) 
 	{
+		System.out.println("=================+ServletContextListener");
+		
 		applicationContext = WebApplicationContextUtils.getWebApplicationContext(event.getServletContext());
 		memcachedService = (IMemcachedService) applicationContext.getBean("memcachedService");
 		memcachedService.init();

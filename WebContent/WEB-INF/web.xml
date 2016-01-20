@@ -96,9 +96,9 @@
   	</listener-class>
   </listener>
   
-  <!-- session最长不活动时间 -->
+  <!-- session最长不活动时间   在<session-config> 中单位是分钟，在servlet中单位是秒-->
   <session-config>
-  	<session-timeout>600</session-timeout>
+  	<session-timeout>60</session-timeout>
   </session-config>
   
   
@@ -122,6 +122,7 @@
      <welcome-file>/view/sys/index.jsp</welcome-file>
   </welcome-file-list>
   
+ <!--  web.xml的加载过程是context-param >> listener  >> fileter  >> servlet -->
   <context-param>
   	<param-name>webAppRootKey</param-name>
   	<param-value>wxcrm.root</param-value>

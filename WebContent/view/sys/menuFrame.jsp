@@ -9,7 +9,7 @@
 			
 			
 			<a href="${pageContext.request.contextPath}/admin/adminLoginSuccess">首页</a>&nbsp;&nbsp;&bull;&nbsp;
-			<a href="http://www.oilchem.net" target="_blank">隆众前台</a>&nbsp;&nbsp;&bull;&nbsp;
+			<a href="http://www.xxxx.com" target="_blank">xxx前台</a>&nbsp;&nbsp;&bull;&nbsp;
 			<a href="${pageContext.request.contextPath}/admin/queryAdminInfo/1">通讯录</a>&nbsp;&nbsp;&bull;&nbsp;
 			<a href="${pageContext.request.contextPath}/packinfo/queryInfoPackPri/0">套餐查询</a>&nbsp;&nbsp;&bull;&nbsp;
 			<a href="${pageContext.request.contextPath}/document/use/index.html" target="_blank">使用说明</a>&nbsp;&nbsp;&bull;&nbsp;

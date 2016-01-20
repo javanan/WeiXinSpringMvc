@@ -9,6 +9,8 @@ import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.springframework.util.PatternMatchUtils;
 import org.springframework.web.filter.OncePerRequestFilter;
 
@@ -16,6 +18,8 @@ import com.wxcrm.sys.WcAdmin;
 import com.wxcrm.util.SysConstant;
 
 public class SysFilter extends OncePerRequestFilter {
+	
+	protected final Log logger = LogFactory.getLog(getClass());
 	private String except;
 
 	private String[] excepts;

@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-	<title>隆众石化网管理后台</title>
+	<title>xxxxxx管理后台</title>
 	
 	<link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/view/css/frame/images/admin.css?v=${applicationScope.sysStartUpTime}"/>
 	<script type="text/javascript" src="${pageContext.request.contextPath}/view/js/jquery-1.8.2.min.js?v=${applicationScope.sysStartUpTime}"></script>
@@ -19,7 +19,7 @@
 	<div class="wrapper">
 		<jsp:include page="/view/sys/menuFrame.jsp"></jsp:include>
 		<div class="admin_right" id="adminRight">
-			<!--<h1>欢迎访问 隆众石化网管理后台</h1>-->
+			<!--<h1>欢迎访问 xxxx管理后台</h1>-->
 			<jsp:include page="/view/sys/adminIndex.jsp"></jsp:include>
 		</div>
 		<jsp:include page="/view/sys/footer.jsp"></jsp:include>

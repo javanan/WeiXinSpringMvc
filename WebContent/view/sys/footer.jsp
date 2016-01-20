@@ -3,7 +3,7 @@
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="f"%>
 
 		<div class="footer">
-		Copyright &copy; Â¡ÖÚÊ¯»¯Íø, All Rights Reserved.
+		Copyright &copy; xxxxx, All Rights Reserved.
 		</div>
 
 		<script type="text/javascript">

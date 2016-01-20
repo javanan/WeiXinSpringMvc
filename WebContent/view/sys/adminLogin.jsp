@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>登录 - 山东隆众问答平台</title>
+    <title>登录 - xxx平台</title>
     
     <link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/view/css/frame/images/global.css?v=${applicationScope.sysStartUpTime}">
     <link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/view/css/frame/images/login.css?v=${applicationScope.sysStartUpTime}">
@@ -104,13 +104,13 @@
 		<div class="login_bd">
 		    <h1>
 		      <img src="${pageContext.request.contextPath}/view/css/frame/images/logo.png"/>
-		      <p class="i_cl_04">欢迎您访问隆众石化网后台！</p>
+		      <p class="i_cl_04">欢迎您访xxxxxxxxx后台！</p>
 		    </h1>
 		    <p class="login_state i_white" id="login_explain">
-		    石油和化工产业资源整合者<br />
-		    专注石油和化工产业链服务<br />
-		    五大服务：资讯、咨询、电商、会议、公共服务平台<br />
-		    石化产业信息服务商
+		    噼里啪啦<br />
+		    嘿嘿嘿嘿嘿<br />
+		    五大服务：xx、xx、xx、xx、xx服务平台<br />
+		    呵呵呵呵呵
 		    </p>
 		    <!--登陆模块_s-->
 	    	<div class="login_mod" id="user_login">
@@ -147,8 +147,8 @@
 	  	</div>
 	</div>
 	
-	<div class="l_footer">Copyright &copy; 隆众石化网, All Rights Reserved.<br>
-	Powered By <a href="http://www.oilchem.net" target="blank">隆众石化网</a></div>
+	<div class="l_footer">Copyright &copy; xxxx, All Rights Reserved.<br>
+	Powered By <a href="http://www.oilchem.net" target="blank">xxxx</a></div>
 	
   </body>
 </html>
